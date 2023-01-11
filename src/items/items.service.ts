@@ -7,6 +7,7 @@ import { v4 as uuid } from 'uuid';
 @Injectable()
 export class ItemsService {
   private items: Item[] = [];
+
   findAll(): Item[] {
     return this.items;
   }
